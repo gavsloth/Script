@@ -197,7 +197,7 @@ WeLoveCat2:CreateToggle("Auto Close Error", function(value)
     loopActive = value
     spawn(function()
         while loopActive do
-            local pp = for i, v in ipairs(game.Players:GetChildren()) do
+            for i, v in ipairs(game.Players:GetChildren()) do
     local eh = Instance.new("Highlight")
     eh.FillColor = Color3.fromRGB(255,0,0) 
     eh.OutlineColor = Color3.fromRGB(1,1,1) 
