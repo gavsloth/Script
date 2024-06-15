@@ -146,19 +146,6 @@ WeLoveCat:CreateButton("V2 Player Hub", function() loadstring(game:HttpGet(('htt
   Notify("V2 Player Hub Loaded")
 end)
 
-WeLoveCat:CreateButton("Hydroxide Mobile", function() 
-local owner = "Hosvile"
-local branch = "revision"
-
-function webImport(file)
-    return loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/MC-Hydroxide/%s/%s.lua"):format(owner, branch, file)), file .. '.lua')()
-end
-
-webImport("init")
-webImport("ui/main")
-  Notify("Hydroxide Loaded")
-end)
-
 --[[ 2nd Section UGC Script ]]--
 local WeLoveCat2 = PhantomForcesWindow:NewSection("UGC")  
 
