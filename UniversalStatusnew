@@ -131,7 +131,7 @@ WeLoveCat:CreateButton("Esp", function() for i, v in ipairs(game.Players:GetChil
     eh.FillColor = Color3.fromRGB(255,0,0) 
     eh.OutlineColor = Color3.fromRGB(1,1,1) 
     eh.Parent = v.Character
-end",true))()
+end
   Notify("Esp Loaded")
 end)
 
