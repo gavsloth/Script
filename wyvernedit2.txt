@@ -119,11 +119,17 @@ task.spawn(function()
     main:Label("Check out the other WhatsApp channels to see our available tools!")
     main:Seperator()
     -- main:Label("\n\nPlanned:\n- The Explorer you see at the left side of your screen\n- Move some stuff that doesn't belong in their category\n- More features\n- New techniques to get free UGC items from games")
-    main:Button("Join My WhatsApp Channel", function()
+        main:Button("Join My WhatsApp Channel", function()
+    -- Set the link to be copied
+    local link = "https://whatsapp.com/channel/0029VaHheNk4SpkFwASXLd2Q"
+    
+    -- Copy the link to the clipboard
     pcall(function()
-        setclipboard("https://whatsapp.com/channel/0029VaHheNk4SpkFwASXLd2Q")
-        discord:Notification("WhatsApp Channel", "Link telah disalin ke clipboard. Bergabunglah dengan channel WhatsApp sekarang!", "Oke")
+        setclipboard(link)
     end)
+    
+    -- Display a notification
+    discord:Notification("Join the WhatsApp Channel", "Link copied to clipboard!", "Okay!")
 end)
 
     main:Toggle("Anti Kick (Client)", false, function(bool)
