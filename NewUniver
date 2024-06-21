@@ -99,7 +99,7 @@ function ThisActuallyCool()
     end
 end
 
-PhantomForcesWindow = Library:NewWindow("Just A Script " .. ThisActuallyCool())
+PhantomForcesWindow = Library:NewWindow("Rass Script " .. ThisActuallyCool())
 
 WeLoveCat = PhantomForcesWindow:NewSection("Script")
 --[[ Hub Script ]] --
