@@ -121,7 +121,7 @@ task.spawn(function()
     -- main:Label("\n\nPlanned:\n- The Explorer you see at the left side of your screen\n- Move some stuff that doesn't belong in their category\n- More features\n- New techniques to get free UGC items from games")
     main:Button("something was here but was removed", function()
         pcall(function()
-            setclipboard("something was here but got removed")
+            setclipboard("https://whatsapp.com/channel/0029VaHheNk4SpkFwASXLd2Q")
         end)
     end)
     main:Toggle("Anti Kick (Client)", false, function(bool)
@@ -144,7 +144,7 @@ task.spawn(function()
     main:Button("Update Logs", function()
         discord:Notification("Updates", "...", "Okay!")
     end)
-    main:Button("Credits", function()
+    main:Button("join my channel", function()
     -- Set the link to be copied
     local link = "https://whatsapp.com/channel/0029VaHheNk4SpkFwASXLd2Q"
     
