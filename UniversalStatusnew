@@ -126,13 +126,9 @@ WeLoveCat:CreateButton("Wyvern", function() loadstring(game:HttpGet("https://raw
   Notify("Wyvern Loaded")
 end)
 
-WeLoveCat:CreateButton("Esp", function() for i, v in ipairs(game.Players:GetChildren()) do
-    local eh = Instance.new("Highlight")
-    eh.FillColor = Color3.fromRGB(255,0,0) 
-    eh.OutlineColor = Color3.fromRGB(1,1,1) 
-    eh.Parent = v.Character
+WeLoveCat:CreateButton("Esp", function() loadstring(game:HttpGet("https://pastebin.com/raw/eCpipCTH"))()
 end
-  Notify("Esp Loaded")
+  Notify("Emote Gui")
 end)
 
 --[[ 2nd Section UGC Script ]]--
