@@ -1,6 +1,8 @@
 --[[ Notifier ]]--
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/iRasz/lost/main/ObfVersion"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iRasz/lost/main/ObfVersion",true))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iRasz/lost/main/ObfVersion",true))()
 
 --[[ Notification]]--
 
