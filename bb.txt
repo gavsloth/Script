@@ -1,3 +1,7 @@
+getgenv().Config = {
+    miscfeatures = false
+}
+
 local LOAD_TIME = tick()
 local queueonteleport = queue_on_teleport or queueonteleport
 local setclipboard = toclipboard or setrbxclipboard or setclipboard
