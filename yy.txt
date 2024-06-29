@@ -1,10 +1,3 @@
-local player = game:GetService("Players")
-local Blacklist = {"MyzuuZYX"}
-if player.LocalPlayer.Name == Blacklist[1] then
-    player.LocalPlayer:Kick("You Not In Whitelist")
-
-elseif player.LocalPlayer then
-
     do
         local DiscordLib = {}
         local UserInputService = cloneref(game:GetService("UserInputService"))
