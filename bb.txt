@@ -1,12 +1,3 @@
-getgenv().Config = {
-    miscfeatures = false
-}
-
-
-local players = game:GetService("Players")
-local whitelist = {"MyzuuZYX"} 
-if players.LocalPlayer.Name == whitelist[1] or players.LocalPlayer.Name == whitelist[2] or players.LocalPlayer.Name == whitelist[3] or players.LocalPlayer.Name == whitelist[4] then
-
 local LOAD_TIME = tick()
 local queueonteleport = queue_on_teleport or queueonteleport
 local setclipboard = toclipboard or setrbxclipboard or setclipboard
@@ -597,8 +588,3 @@ purchase:Button("Fire Selected Gamepass", function()
 	end
 end)
 end)
-
-elseif players.LocalPlayer then
-	game.Players.LocalPlayer:Kick("You Not In Whitelist")
-end
-
