@@ -132,7 +132,7 @@ end
 
 task.spawn(function()	
 	local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/RassNoMercy/Script/main/jj%20(1).txt",true))()
-	local win = discord:Window("Connect Hub | Ugc Sniper")
+	local win = discord:Window("Rass Hub | Ugc Sniper")
 	local serv = win:Server("", "")
 	local main = serv:Channel("Main")
 	main:Toggle("Website Sniper", false, function(bool)
