@@ -3,7 +3,6 @@ local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
 local hardware = {
     "af19149d-47c2-4631-8f5a-d7556a28d4e7",
     "dcb3fd6f-61b7-40a2-8126-0eee746ff66e",
-    "",
 }
 
 if table.find(hardware, hwid) then 
@@ -176,9 +175,9 @@ WeLoveCat:CreateButton("Hide Fluxus", function() loadstring(game:HttpGet("https:
   if V10 then
   Sound(6150774030, 0.1)
     task.wait(.1)
-    Notify("V2 Player Hub Loaded", 3)
+    Notify("Hide Fluxus Loaded", 3)
   else
-    Notify("V2 Player Hub Loaded", 3)
+    Notify("Hide Fluxus Loaded", 3)
   end ;
 end) ;
 
