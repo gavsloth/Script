@@ -1,5 +1,5 @@
 local players = game:GetService("Players")
-local whitelist = {"MyzuuZYX", "YteamXD"} 
+local whitelist = {"November2nd2021", "YteamXD"} 
 if players.LocalPlayer.Name == whitelist[1] or
 players.LocalPlayer.Name == whitelist[2] then
 
